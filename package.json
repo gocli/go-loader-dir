@@ -1,6 +1,6 @@
 {
   "name": "go-loader-dir",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Go loader for local files",
   "main": "./lib/loader.js",
   "scripts": {
@@ -35,7 +35,8 @@
   },
   "homepage": "https://github.com/gocli/go-loader-dir#readme",
   "dependencies": {
-    "minimist": "1.2.0"
+    "minimist": "1.2.0",
+    "ncp": "^2.0.0"
   },
   "devDependencies": {
     "jest": "^22.4.2",
