@@ -6,13 +6,13 @@
 [![Vulnerabilities](https://snyk.io/test/github/gocli/go-loader-dir/badge.svg?style=flat-square)](https://snyk.io/test/github/gocli/go-loader-dir)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-green.svg?style=flat-square)](https://github.com/gocli/go-loader-dir)
 
-[Go](https://www.npmjs.com/package/go) loader for Dir
+[Go](https://www.npmjs.com/package/go) loader for local files
 
 ## Usage
 
 ```bash
 $ npm install --global go go-loader-dir
-$ go dir
+$ go dir boilerplate/directory/path destination/path
 ```
 
 ## Options
@@ -21,7 +21,7 @@ $ go dir
 $ go dir <source> <destination> [options]
 ```
 
-- `source` — valid source
+- `source` — valid source path
 - `destination` — folder path to put loaded files (destination folder will be created if it doesn't exist)
 - `options`:
   - `--no-install` — do not install boilerplate after loading
